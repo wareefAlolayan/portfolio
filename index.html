@@ -3,65 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wareef's Portfolio</title>
+    <head>
+    <link rel="icon" type="image/png" href="PortfolioLogo.png"><!-- for some reason it didnt work go back to it at the end-->
+    <!-- Include Google Icons library -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- ref:geeksforgeeks-->
     <link rel="stylesheet" href="./styles/style.css">
     <script src="./scripts/script.js"></script>
 </head>
 <body>
-
+    <header>
+        <!-- ref : MDN -->
+        <a href="#main" id="home">Home</a> 
+        <a href="#about">About</a>
+        <a href="#Education">Education</a>
+        <a href="#Skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Projects</a>
+        <a href="#contact">Contact</a>
+    </header>
+    <div id="main">
     <div class="space1">
         <h1>Wareef Alolayan</h1>
         <p>IT Graduate | Specializing in AI-Powered Solutions & Software Engineering</p>
+        <p><i class="material-icons">location_on</i>Riyadh/Qassim Saudi Arabia</p>
     </div>
 
     <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Highly motivated IT graduate with first-class honors and a strong focus on artificial intelligence.  
-        Experienced in creating AI-powered solutions for computer vision, image classification, and data-driven decision-making.  
-        Skilled at turning complex data into actionable insights, optimizing model performance, and delivering innovative solutions that address real-world challenges:contentReference[oaicite:0]{index=0}.
-      </p>
-      <ul>
-        <li><strong>Education:</strong> Bachelor of Information Technology, Qassim University (GPA 4.83 / 5, First Class Honor)</li>
-        <li><strong>Languages:</strong> Arabic (C2), English (C1)</li>
-        <li><strong>Key Skills:</strong> AI, ML, DL, Computer Vision, NLP, Data Analysis, Python, Java, C++, Flutter, SQL, Web Development</li>
-      </ul>
+      <h2 class="title">About Me</h2>
+      <div class="contentBox">
+        <p id="summary">
+            IT graduate with first-class honors and a strong interest in artificial intelligence, web development, mobile apps, and software engineering. I enjoy working on projects that bring together different areas of technology from applying AI models to building practical web or mobile solutions.I have experience across these fields and the curiosity to keep learning. My focus is on creating useful, well-built applications that combine AI, software, and modern development tools.
+        </p>
+      </div>
     </section>
-
+    <section id="Education">
+        <h2 class="title">Education</h2>
+        <div class="contentBox">
+            <div class="experience-header">
+                <h3>Bachelor of Information Technology, Qassim University </h3>
+                <span>2025</span>
+            </div>
+            <ul>
+                <li><strong>GPA :</strong> 4.83/5</li>
+            </ul>
+        </div>
+    </section>
+    <section id="Skills">
+        <h2 class="title">Skills</h2>
+        <div class="contentBox">
+            <h3>Key Skills</h3>
+            <p> AI , ML , DL , Computer Vision , Python , Java , Dart , PHP , C++ , JavaScript , Flutter , SQL , Wordpress , Firebase , Figma , Google Colab , Github </p>
+        </div>
+        <div class="contentBox">
+            <h3>Soft Skills</h3>
+            <p> Problem-Solving , Critical Thinking , Leadership , Teamwork , Fast Learner , Adaptability , Time Management , Strong Communication , Agility , Curiosity </p>
+        </div>
+        <div class="contentBox">
+            <h3>Languages</h3>
+            <p> Arabic (C2), English (C1)</p>
+        </div>
+    </section>
+ 
     <section id="projects">
-      <h2>Projects</h2>
-
+      <h2 class="title">Projects</h2>
+        <div class="contentBox">
         <h3>Graduation Project — Dental Disease Classification</h3>
+        <div class="imageBox"><img src="./images/GPP.png" alt="dental classification project" ></div>
         <p>
           Applied advanced deep learning models (EfficientNet, Inception, etc.) for the classification of dental diseases from panoramic radiographs.  
           Conducted performance evaluation and comparison of five models to determine the most effective for dental image classification.  
-          Awarded second place in the graduation project competition:contentReference[oaicite:1]{index=1}.
+          Awarded second place in the graduation project competition
         </p>
-
-        <h3>Freelance Web Support — THABAT</h3>
-        <p>
-          Assisted in updating and enhancing the company’s website using WordPress (Jan–Feb 2025).
-        </p>
-
+        </div>
+        
+        
+    </section>
+    <section id="experience">
+      <h2 class="title">Experience</h2>
+        <div class="contentBox">
+            <div class="experience-header">
+                <h3>Freelance Web Support — THABAT</h3>
+                <span>Jan 2025 – Feb 2025</span>
+            </div>
+        <p> Assisted in updating and enhancing the company’s website using WordPress. </p>
+        </div>
+        <div class="contentBox">
+            <div class="experience-header">
         <h3>Web Development Internship — KACST</h3>
-        <p>
-          Developed and maintained web applications, improving functionality and user experience.  
-          Collaborated with a team of developers to implement front-end and back-end solutions (Jun–Aug 2024).
-        </p>
+        <span>Jun 2024 – Aug 2024</span>
+        </div>        
+        <p>Developed and maintained web applications, improving functionality and user experience.  
+          Collaborated with a team of developers to implement front-end and back-end solutions .</p>
+    </div>
+        
     </section>
 
     <section id="contact">
-      <h2>Contact</h2>
+      <h2 class="title">Contact</h2>
+      <div class="contentBox">
       <ul>
-        <li>Email: <a href="mailto:wareefalolayan1424@gmail.com">wareefalolayan1424@gmail.com</a></li>
-        <li>Phone: +966539003115</li>
-        <li>LinkedIn: <a href="http://www.linkedin.com/in/wareef-alolayan-05997b291" target="_blank">linkedin.com/in/wareef-alolayan</a></li>
-        <li>GitHub: <a href="https://github.com/wareefAlolayan" target="_blank">github.com/wareefAlolayan</a></li>
+        <li><i class="material-icons">mail</i><a href="mailto:wareefalolayan1424@gmail.com">wareefalolayan1424@gmail.com</a></li>
+        <li id="number"><i class="material-icons">call</i>+966539003115</li>
+        <li><a href="http://www.linkedin.com/in/wareef-alolayan-05997b291">LinkedIn</a></li>
+        <li><a href="https://github.com/wareefAlolayan" >Github</a></li>
       </ul>
-
-      <hr />
+    </div>
 
     </section>
-    
+    </div>
 </body>
 </html>
