@@ -8,13 +8,16 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     max-width: 100%;
+    margin-bottom: 4%;
 }
 
 header {
+    position: fixed;
     background-color: white;
     display: flex;
     justify-content: space-around;
     padding: 0 20px;
+    width: 100%;
 }
 
 a {
@@ -24,7 +27,7 @@ a {
 
 header a {
     display: flex;
-    width: 100px;
+    width: 100%;
     align-items: center;
     height: 50px;
     margin: 0;
@@ -39,6 +42,7 @@ a:hover {
 
 #main {
     margin: 0 4%;
+    padding-top: 4rem;
 }
 
 h1 {
@@ -257,5 +261,16 @@ form{
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .logo{
+    position: relative;
+    width: 30%;
+    max-width: 100px;
+  }
+  .icon{
+    width: 30%;
+  }
+  #main{
+    padding-top: 5rem;
   }
 }
