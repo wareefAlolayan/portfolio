@@ -22,7 +22,18 @@ document.addEventListener('DOMContentLoaded', () => {
             name : "Cnadidate Spark Website",
             image :'./images/CSP2.png',
             description : 'Candidate Spark is an online platform designed to simplify and speed up the recruitment process. It allows job seekers to upload their CVs and creates a searchable database for employers and HR professionals. With search tools, administrators can quickly find the best candidates for their job openings. The platform aims to make hiring faster, easier, and more efficient by connecting talented individuals with the right job opportunities.'
-        }
+        },
+        {
+            name : "pyBank terminal based",
+            image :'./images/pybank.png',
+            description : 'Built a terminal-based banking system in Python, implementing features such as account creation, deposits, withdrawals, and transaction history. Focused on error handling, input validation, and unit testing to ensure reliability and robustness.'
+        },
+        {
+            name : "Wassel",
+            image :'./images/wassel-screenshpt.png',
+            description : 'Developed a web platform to enhance communication and decision-making for managers and employees.Key features include dashboards for shift management, employee requests, and approval workflows.Users can log in and manage their requests, while managers can manage employee schedules and approve/deny requests.Built with React (frontend), Django (backend), PostgreSQL (database), and integrated RESTful APIs.'
+        },
+        
     ]
 
     // Cached element reference
