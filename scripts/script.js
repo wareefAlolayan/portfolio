@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name : "Wassel",
-            image :'./images/wassel-screenshpt.png',
+            image :'./images/wassel-screenshot.png',
             description : 'Developed a web platform to enhance communication and decision-making for managers and employees.Key features include dashboards for shift management, employee requests, and approval workflows.Users can log in and manage their requests, while managers can manage employee schedules and approve/deny requests.Built with React (frontend), Django (backend), PostgreSQL (database), and integrated RESTful APIs.'
         },
         
